@@ -1,0 +1,47 @@
+.note {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0px;
+  gap: 10px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding-inline: 20px;
+
+  &__text {
+    font-size: 0.7rem;
+    text-align: left;
+    width: 25%;
+    word-break: break-all;
+  }
+  &__buttons {
+    display: flex;
+  }
+
+  &__delete,
+  &__update {
+    border: none;
+    background: #fff;
+    padding: 20px;
+    cursor: pointer;
+    transition: background 500ms;
+    &:hover {
+      background: #e4e3e3;
+    }
+  }
+
+  &__priority {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+
+  &__priority--URGENTE {
+    color: #fc4322;
+  }
+  &__priority--NORMAL {
+    color: darkslategrey;
+  }
+  &__priority--BAJA {
+    color: darkgreen;
+  }
+}
