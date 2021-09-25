@@ -1,6 +1,7 @@
 import { useContext } from "react";
-import Note from "../../Note/Note";
 import { NoteContext } from "../../NoteProvider/NoteProvider";
+import Note from "../Note/Note";
+import "./NoteList.scss";
 
 const NoteList = ({ formVal }) => {
   const { notes } = useContext(NoteContext);

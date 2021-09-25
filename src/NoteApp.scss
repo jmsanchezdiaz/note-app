@@ -8,27 +8,13 @@ $primFont: "Roboto Mono", monospace;
   text-align: center;
   max-width: 1200px;
   margin: auto;
+}
 
-  &__form {
-    display: flex;
-    justify-content: center;
-    select,
-    button,
-    input {
-      border: none;
-      background-color: #fff;
-      padding: 5px;
-    }
-
-    button {
-      cursor: pointer;
-    }
-
-    .note__input {
-      border-bottom: 2px solid #000;
-      &:focus {
-        outline: none;
-      }
-    }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

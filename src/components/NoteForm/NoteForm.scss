@@ -1,0 +1,23 @@
+.note-app__form {
+  display: flex;
+  justify-content: center;
+  select,
+  button,
+  input {
+    border: none;
+    background-color: #fff;
+    padding: 5px;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  .note__input {
+    border-bottom: 2px solid #000;
+    &:focus {
+      outline: none;
+      border-bottom-color: rgb(0, 68, 255);
+    }
+  }
+}

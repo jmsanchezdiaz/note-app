@@ -1,4 +1,5 @@
 .note {
+  animation: fadeIn 1.5s;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -9,9 +10,9 @@
   padding-inline: 20px;
 
   &__text {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     text-align: left;
-    width: 25%;
+    width: 30%;
     word-break: break-all;
   }
   &__buttons {
